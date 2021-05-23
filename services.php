@@ -402,7 +402,7 @@ font-family: 'Montserrat';
                   $userEmail = "" ;
                 } else{
                   ?>
-                  <div class="alertError">Failed to send your email</div>
+                  <div class="alertError">Failed to send you an email</div>
                   <?php
                 }
               }else{
