@@ -242,7 +242,7 @@ html{
 
 		</div>
 		<div id="form">
-		  <form action="">
+		  <form action="" method ="post">
 
 			<label for="fname">First Name</label>
 			<input type="text" id="fname" name="firstname" placeholder="Your first name...">
