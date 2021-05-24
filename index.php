@@ -156,7 +156,7 @@
 			<p><i> BIGGER.&nbsp; BETTER.&nbsp; BLOOM. </i></p>
 		</div>
 		<div class = "posts">
-			<img src = "6th.ph" alt="Pagoda with flower decorations">
+			<img src = "6th.png" alt="Pagoda with flower decorations">
 		</div>
 		
 		<div class = "posts">
