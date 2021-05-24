@@ -9,7 +9,7 @@
 
 	$alert = '';
 
-	if(isset($_POST['submit'])){
+	if(isset($_POST['submitForm'])){
 		$fname = $_POST['firstname'];
 		$lname = $_POST['lastname'];
 		$phoneNum = $_POST['phoneumber'];
