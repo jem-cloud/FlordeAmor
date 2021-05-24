@@ -70,18 +70,18 @@
 	<div class="pictures">	
 		<center>
 		<div id="intropics" class = "pics">
-			<img src = "mission2.jpg" alt="Flowers with ribbon at the side of the church bench">
+			<img src = "mission2.png" alt="Flowers with ribbon at the side of the church bench">
 		</div>
 	
 		<div class = "pics">
-			<img src = "mission4.jpg" alt="Bride holding a bouquet of pink roses">
+			<img src = "mission4.png" alt="Bride holding a bouquet of pink roses">
 		</div>
 		
 		<div class = "pics">
-			<img src = "mission3.jpg" alt="Two chairs with floral arrangements at the back">
+			<img src = "mission3.png" alt="Two chairs with floral arrangements at the back">
 		</div>
 		<div class = "pics">
-			<img src = "mission1.jpg" alt="Wedding rings at the top of the bouquet">
+			<img src = "mission1.png" alt="Wedding rings at the top of the bouquet">
 		</div>
 		</center>
 	</div>
