@@ -186,6 +186,8 @@ html{
 </head>
 
 <body>
+	
+	<?php echo $alert; ?>
 
   <a href="#" class = "scrolltop">
     <i class = "fas fa-chevron-up"></i>
@@ -241,8 +243,6 @@ html{
 		</div>
 		<div id="form">
 		  <form action="" method="POST">
-			  
-			  <?php echo $alert; ?>
 			  
 			<label for="fname">First Name</label>
 			<input type="text" id="fname" name="firstname" placeholder="Your first name...">
