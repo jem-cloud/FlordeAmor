@@ -156,23 +156,23 @@
 			<p><i> BIGGER.&nbsp; BETTER.&nbsp; BLOOM. </i></p>
 		</div>
 		<div class = "posts">
-			<img src = "~/images/6th.ph" alt="Pagoda with flower decorations">
+			<img src = "6th.ph" alt="Pagoda with flower decorations">
 		</div>
 		
 		<div class = "posts">
-			<img src = "~/images/2nd.png" alt="Bride posing at the stairs">
+			<img src = "2nd.png" alt="Bride posing at the stairs">
 		</div>
 	
 		<div class = "posts">
-			<img src = "~/images/3rd.png" alt="Bouquet">
+			<img src = "3rd.png" alt="Bouquet">
 		</div>
 	
 		<div class = "posts">
-			<img src = "~/images/4th.png" alt="Bride inside the car looking at the window">
+			<img src = "4th.png" alt="Bride inside the car looking at the window">
 		</div>
 
 		<div class = "posts">
-			<img src = "~/images/5th.png" alt="Rectangular table with floral arrangements">
+			<img src = "5th.png" alt="Rectangular table with floral arrangements">
 		</div>
 	</div>
 	</center>
