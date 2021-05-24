@@ -3,7 +3,7 @@
 <head>
     <title> Flor De Amor - Services </title>
 	
-	<link rel="icon" type="image/png" href="images\logo.ico">
+	<link rel="icon" type="image/png" href="logo.ico">
 	
    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
