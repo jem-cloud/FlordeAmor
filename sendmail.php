@@ -20,7 +20,7 @@
 
 		try{
 			//$mail->SMTPDebug = SMTP::DEBUG_SERVER; 
-			$mail->isSMTP();
+			//$mail->isSMTP();
 			$mail->Host = 'smtp.gmail.com';
 			$mail->SMTPAuth = true;
 			$mail->Username = 'jemina.cayme.sy@gmail.com';
