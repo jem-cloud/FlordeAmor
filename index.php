@@ -2,6 +2,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Flor de Amor</title>
+	
+	<link rel="icon" type="image/png" href="images\logo.ico">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
    	<link rel="shortcut icon" type="image/jpg" href="img\logo.png"/>
 	<link rel="stylesheet" href="style.css">
@@ -153,23 +156,23 @@
 			<p><i> BIGGER.&nbsp; BETTER.&nbsp; BLOOM. </i></p>
 		</div>
 		<div class = "posts">
-			<img src = "images\6th.jpg" alt="Pagoda with flower decorations">
+			<img src = "./images/6th.jpg" alt="Pagoda with flower decorations">
 		</div>
 		
 		<div class = "posts">
-			<img src = "images\2nd.jpg" alt="Bride posing at the stairs">
+			<img src = "./images/2nd.jpg" alt="Bride posing at the stairs">
 		</div>
 	
 		<div class = "posts">
-			<img src = "images\3rd.jpg" alt="Bouquet">
+			<img src = "./images/3rd.jpg" alt="Bouquet">
 		</div>
 	
 		<div class = "posts">
-			<img src = "images\4th.jpg" alt="Bride inside the car looking at the window">
+			<img src = "./images/4th.jpg" alt="Bride inside the car looking at the window">
 		</div>
 
 		<div class = "posts">
-			<img src = "images\5th.jpg" alt="Rectangular table with floral arrangements">
+			<img src = "./images/5th.jpg" alt="Rectangular table with floral arrangements">
 		</div>
 	</div>
 	</center>
