@@ -4,6 +4,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
    	<link rel="shortcut icon" type="image/jpg" href="img\logo.png"/>
     <title>Flor De Amor - Contact Us</title>
+	
+	<link rel="icon" type="image/png" href="images\logo.ico">
+	
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta charset="utf-8">
     <link rel="shortcut icon" type="image/jpg" href="img\logo.png"/>
