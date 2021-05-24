@@ -44,7 +44,7 @@
 					</div>';
 		} catch (Exception $e){
 			$alert = '<div class = "alert-error">
-						<span>Something went wrong! Please try again later.</span>
+						<span>'.$e->getMessage().'</span>
 					</div>';
 		}
 	}
