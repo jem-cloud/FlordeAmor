@@ -242,7 +242,7 @@ html{
 
 		</div>
 		<div id="form">
-		  <form action="" method ="post">
+		  <form action="" method="POST">
 
 			<label for="fname">First Name</label>
 			<input type="text" id="fname" name="firstname" placeholder="Your first name...">
@@ -267,7 +267,7 @@ html{
 			<label for="subject">Message</label>
 			<textarea id="subject" name="subject" placeholder="Give us an idea of what you're looking for..." style="height:100px"></textarea>
 
-			<input type="submit" value="Submit">
+			<input type="submit" value="Submit" name="submitForm">
 		  </form>
 		</div>  
     <script type="text/javascript">
@@ -300,32 +300,29 @@ html{
 			<form action="contactus.php#site-footer" method="POST">
 			
       <?php
-          $userEmail = "" ;
+          $userEmail = '' ;
           if(isset($_POST['subscribe'])){
             $userEmail = $_POST['email'];
             if(filter_var($userEmail, FILTER_VALIDATE_EMAIL)){
-              $subject = "FLOR DE AMOR";
-              $message = "Thanks for susbcribing to Flor De Amor. You will always receive latest updates from us.";
-              $sender = "From: info@flordeamorweddings.com";
+              $subject = 'FLOR DE AMOR';
+              $message = 'Thanks for susbcribing to Flor De Amor. You will always receive latest updates from us.';
+              $sender = 'From: info@flordeamorweddings.com';
               if(mail($userEmail, $subject, $message, $sender)){
-                ?>
-                <div class="alertSuccess">Thanks for subscribing us!</div>
+                echo '<html><body><div class="alertSuccess">Thanks for subscribing us!</div></body></html>';
 
-                <?php
-                $userEmail = "" ;
+                $userEmail = '' ;
               } else{
-                ?>
-                <div class="alertError">Failed to send you an email</div>
-                <?php
+                echo '<html><body><div class="alertError">Failed to send your email</div></body></html>';
+                
               }
             }else{
-              ?>
-                <div class="alertError">Invalid Email</div>
-              <?php
+              echo '<html><body><div class="alertError">Invalid Email</div></body></html>';
 
             }
           }
-        ?><div class="subscribe-form">
+        ?>
+
+        <div class="subscribe-form">
             <input type="text" name="email" placeholder="Email Address" required value="<?php echo $userEmail ?>">
           <div class="subscribe-button">
             <input type="submit" name="subscribe"value="Subscribe"> </div>
