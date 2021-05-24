@@ -3,7 +3,7 @@
 	<meta charset="utf-8">
 	<title>Flor de Amor</title>
 	
-	<link rel="icon" type="image/png" href="images\logo.ico">
+	<link rel="icon" type="image/png" href="logo.ico">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
    	<link rel="shortcut icon" type="image/jpg" href="img\logo.png"/>
