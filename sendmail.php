@@ -1,5 +1,6 @@
 <?php
 	use PHPMailer\PHPMailer\PHPMailer;
+	use PHPMailer\PHPMailer\Exception;
 
 	require_once 'phpmailer/Exception.php';
 	require_once 'phpmailer/PHPMailer.php';
@@ -44,7 +45,7 @@
 					</div>';
 		} catch (Exception $e){
 			$alert = '<div class = "alert-error">
-						<span>'.$e->getMessage().'</span>
+						<span>Something went wrong! Please try again later.</span>
 					</div>';
 		}
 	}
