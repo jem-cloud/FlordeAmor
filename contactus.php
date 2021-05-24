@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-   	<link rel="shortcut icon" type="image/jpg" href="img\logo.png"/>
+   	<link rel="shortcut icon" type="image/jpg" href="logo.png"/>
     <title>Flor De Amor - Contact Us</title>
 	
 	<link rel="icon" type="image/png" href="images\logo.ico">
